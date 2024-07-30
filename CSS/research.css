@@ -1,0 +1,179 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+  }
+  
+  h1{
+    font-size: 50px;
+    line-height: 64px;
+    color: rgb(255, 255, 255);
+  }
+  
+  h2{
+    font-size: 30px;
+    line-height: 54px;
+    color: rgb(255, 255, 255);
+  }
+  
+  h4{
+    font-size: 20px;
+   color: #ffffff;
+  }
+  
+  h6{
+    font-weight: 700;
+    font-size: 12px;
+  }
+  
+  p{
+    font-size: 16px;
+    color: #ffffff;
+    margin: 15px 0 20 px 0;;
+  }
+  
+  .section-p1{
+    padding: 40px 80px;
+  }
+  
+  .section-m1{
+    margin: 40px 0;
+  }
+  
+  .section-p2{
+    padding: 40px 80px;
+    background-color: #34302a;
+  }
+  
+  body {
+    width: 100%;
+  }
+  
+  .logo{
+    height: 79px;
+  }
+  
+  #header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px 55px;
+    background: #34302a;
+    box-shadow: 0 5px 15px rgba(0, 0.1, 0, 1);
+    z-index: 999;
+    position: sticky;
+    top: 0;
+    left: 0;
+  }
+  
+  #navigationbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  #navigationbar li{
+    list-style: none;
+    padding: 0 14px;
+    position: relative;
+  }
+  
+  #navigationbar li a{
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 700;
+    color: #fff;
+    transition: 0.4s ease;
+  }
+  
+  #navigationbar li a:hover,
+  #navigationbar li a.active{
+    color: #4cc132;
+  }
+  
+  #navigationbar li a.active::after,
+  #navigationbar li a:hover::after{
+    content: "";
+    width: 50%;
+    height: 3px;
+    background: #4cc132;
+    position: absolute;
+    bottom: -3px;
+    left: 20px;
+  }
+  
+  .footlogo {
+    height: 95px;
+    width: 100px;
+  }
+  
+  .socials {
+    height: 30px;
+    width: 30px;
+  }
+  
+  footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  footer .logo1 {
+    margin-bottom: 30px;
+  }
+  
+  footer h4 {
+    font-size: 30px;
+    padding-bottom: 20px;
+  }
+  
+  footer p {
+    font-size: 15px;
+    margin: 0 0 8px 0;
+  }
+  
+  footer .copyright {
+    padding-top: 50px;
+  }
+  
+/*EXTERNAL CSS*/
+
+* {
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #313520;                             /*color of background*/
+}
+
+.hero-title{
+    text-align: center;
+    padding: 15px;
+    color: white;
+    font-size: 50px;
+}
+
+.row{
+    display: flex;                              /*divide into two halves*/
+}	
+
+.card{
+    background-color: #6e642d;
+	margin: 10px;
+	padding: 3px 35px 30px 30px;
+    text-align: justify;
+}
+
+.description{
+    background-color: #313520;              /*color of the boxes*/
+	margin: 10px;
+	padding: 5px 30px;
+    text-align: justify;
+}
+
+.img:hover{
+    width: 575px;
+    height: 350px;
+    box-shadow: 5px 8px 15px #0a0d0a;       /*color of shadow that appears around the image when cursor is pointed*/
+    border: 1px solid #0a0d0a;              /*border around the image when hover*/
+}

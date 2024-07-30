@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="description" content="Product page">
+        <meta name="keywords" content="HTML,CSS,Java">
+        <meta name="author" content="Sarthak Shrestha 22067675 NP01CP4A220100">
+       <title>Product</title>
+       <link rel="stylesheet" href="../CSS/product.css">
+    <body>
+        
+        <section id="header">
+            <a href="#"><img src="../product page images/logo.png" height="150px" class="logo" alt=""></a>
+
+            <div>
+                <ul id="navbar">
+                    <li><a href="home.html">Home</a></li>
+                    <li><a class="active" href="shop.html">Shop</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </section>
+        
+        <section id="prodetails" class="section-p1">
+            <div class="single-pro-image">
+                <img src="../product page images/p6.webp" width="100%" id="MainImg" alt="">
+                <div class="small-img-group">
+                    <div class="small-img-col">
+                        <img src="../product page images/p6.webp" width="100%" class="small-img" alt="">
+                    </div>
+                    <div class="small-img-col">
+                        <img src="../product page images/p66.webp" width="100%" class="small-img" alt="">
+                    </div>
+                    <div class="small-img-col">
+                        <img src="../product page images/p666.webp" width="100%" class="small-img" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="single-pr-details">
+                <h5>Kumo Bonsai</h5>
+                <h2>Large Rock Juniper</h2>
+                <h2>Rs 10500</h2>
+                
+                 <input type="number" value="1">
+                 <button>Buy Now</button>
+                 <h4>Product Details</h4>
+                 <span>The Juniper is one of the most commonly recognized bonsai. For those interested in adding their own style, this juniper bonsai tree arrives full enough to shape to your preference. Simply prune to your liking or use wire and shears to shape your tree.</span>
+            </div>
+        </section>
+        <footer class="section-p2">
+            <div class="col">
+                <img src="../product page images/no_bg_KUMO.png" alt="" class="footlogo">
+            </div>
+        
+            <div class="contact">
+                <h4>Contact Us</h4>
+                <p><strong>Address:</strong> Durbarmarg, Kathmandu</p>
+                <p><strong>Phone:</strong> +01 5572137/+977 9834770356</p>
+                <p><strong>Open From:</strong> 8:00 A.M. - 7:00 P.M. Sun-Fri</p>
+            </div>
+        
+            <div class="follow">
+                <h4>Follow Us</h4>
+                <img src="../product page images/Facebook_Logo_2019.png.webp" class="socials">
+                <img src="../product page images/Instagram_logo_2016.svg.webp" class="socials">
+                <img src="../product page images/2-27646_twitter-logo-png-transparent-background-logo-twitter-png.png" class="socials">
+            </div>
+        
+            <div class="copyright">
+                <p>Copyright © [2023] , Kumo Bon-Sai All rights reserved.</p>
+            </div>
+        </footer>
+        <script>
+            var MainImg = document.getElementById("MainImg");
+            var smallimg = document.getElementsByClassName("small-img");
+            smallimg[0].onclick = function(){
+                MainImg.src = smallimg[0].src;
+            }
+            smallimg[1].onclick = function(){
+                MainImg.src = smallimg[1].src;
+            }
+            smallimg[2].onclick = function(){
+                MainImg.src = smallimg[2].src;
+            }
+            smallimg[3].onclick = function(){
+                MainImg.src = smallimg[3].src;
+            }
+        </script>
+    </body>
+</html>
+ 

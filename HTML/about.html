@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="description" content="About Us Page">
+        <meta name="keywords" content="HTML,CSS">
+        <meta name="author" content="Ayushka Karmacharya 22067677 NP01CP4A220289">
+
+        <title>About us</title>
+        
+      <style>
+        * {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+  }
+  
+  h1{
+    font-size: 50px;
+    line-height: 64px;
+    color: rgb(255, 255, 255);
+  }
+  
+  h2{
+    font-size: 46px;
+    line-height: 54px;
+    color: rgb(255, 255, 255);
+  }
+  
+  h4{
+    font-size: 20px;
+   color: #ffffff;
+  }
+  
+  h6{
+    font-weight: 700;
+    font-size: 12px;
+  }
+  
+  p{
+    font-size: 16px;
+    color: #ffffff;
+    margin: 15px 0 20 px 0;;
+  }
+  
+  .section-p1{
+    padding: 40px 80px;
+  }
+  
+  .section-m1{
+    margin: 40px 0;
+  }
+  
+  .section-p2{
+    padding: 40px 80px;
+    background-color: #34302a;
+  }
+  
+  body {
+    width: 100%;
+  }
+  
+  .logo{
+    height: 79px;
+  }
+  
+  #header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px 55px;
+    background: #34302a;
+    box-shadow: 0 5px 15px rgba(0, 0.1, 0, 1);
+    z-index: 999;
+    position: sticky;
+    top: 0;
+    left: 0;
+  }
+  
+  #navigationbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  #navigationbar li{
+    list-style: none;
+    padding: 0 14px;
+    position: relative;
+  }
+  
+  #navigationbar li a{
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 700;
+    color: #fff;
+    transition: 0.4s ease;
+  }
+  
+  #navigationbar li a:hover,
+  #navigationbar li a.active{
+    color: #4cc132;
+  }
+  
+  #navigationbar li a.active::after,
+  #navigationbar li a:hover::after{
+    content: "";
+    width: 50%;
+    height: 3px;
+    background: #4cc132;
+    position: absolute;
+    bottom: -3px;
+    left: 20px;
+  }
+  
+  .footlogo {
+    height: 95px;
+    width: 100px;
+  }
+  
+  .socials {
+    height: 30px;
+    width: 30px;
+  }
+  
+  footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  footer .logo1 {
+    margin-bottom: 30px;
+  }
+  
+  footer h4 {
+    font-size: 30px;
+    padding-bottom: 20px;
+  }
+  
+  footer p {
+    font-size: 15px;
+    margin: 0 0 8px 0;
+  }
+  
+  footer .copyright {
+    padding-top: 50px;
+  }
+  
+      body {
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        text-align: center;
+        background-color: #667a66;
+      }
+      
+      h1 {
+        font-size: 30px;
+        margin-bottom: 20px;
+        background-color: #1e241e;
+        padding: 15px;
+        color: #fff;
+        
+      }
+      
+      #members {
+        display: inline-block;
+        width: 200px;
+        text-align: left;
+        margin: 0 20px 10px 0;
+        background-color: #1e241e;
+      }
+      
+      img {
+        width: 100%;
+        margin-bottom: 2px;
+    
+      }
+      
+      h2 {
+        font-size: 24px;
+        margin-bottom: 2px;
+        text-align: center;
+      }
+      
+      a {
+        color: #fff;
+        text-decoration: none;
+      }
+
+      p{
+        color: #b2bcb2;
+        padding: 10px;
+      }
+
+    </style>
+      
+       
+    </head>
+    <body>
+      <section id="header">
+        <a href="#"><img src="../about us images/logo.png" class="logo"></a>
+        <div>
+          <ul id="navigationbar">
+            <li><a href="../home.html">HOME</a></li>
+            <li><a href="blog.html">BLOG</a></li>
+            <li><a href="Product.html">PRODUCTS</a></li>
+            <li><a href="research.html">RESEARCH</a></li>
+            <li><a class="active" href="about.html">ABOUT US</a></li>
+            <li><a href="form.html">FORMS</a></li>
+          </ul>
+        </div>
+      </section>
+
+        <h1>About Us</h1>
+
+        <div id="members">
+            <img src="../about us images/ayushka.png" alt="ayushka">
+            <h2><a href="ayushka.html">Ayushka</a></h2>
+            <p> Work: <br> About Us</p>
+        </div>
+
+        <div id="members">
+            <img src="../about us images/rhishab.jpg" alt="Rhishab">
+            <h2><a href="Rishab.html">Rhishab</a></h2>
+            <p>Work: <br> Home Page</p>
+        </div>
+
+        <div id="members">
+            <img src="../about us images/asmi.jpg" alt="Asmi">
+            <h2><a href="asmi.html">Asmi</a></h2> 
+            <p>Work: <br> Blog Page</p>
+        </div>
+
+        <div id="members">
+            <img src="../about us images/sarthak.jpg" alt="Sarthak">
+            <h2><a href="Sarthak.html">Sarthak</a></h2>
+            <p>Work: <br> Product Page</p>
+        </div>
+
+        <div id="members">
+          <img src="../about us images/rashi.jpg" alt="Sarthak">
+          <h2><a href="rashi.html">Rashi</a></h2>
+          <p>Work: <br> Research Page, Form</p>
+      </div>
+       
+      <h3 style="color:#c8bf8e; text-align: center;">...............NOTE: Click on the NAME for the CV...............</h3>
+
+      <br>
+      <br>
+      <br>
+      
+      <footer class="section-p2">
+        <div class="col">
+          <img src="../about us images/no_bg_KUMO.png" alt="" class="footlogo">
+        </div>
+      
+        <div class="contact">
+          <h4>Contact Us</h4>
+          <p><strong>Address:</strong> Durbarmarg, Kathmandu</p>
+          <p><strong>Phone:</strong> +01 5572137/+977 9834770356</p>
+          <p><strong>Open From:</strong> 8:00 A.M. - 7:00 P.M. Sun-Fri</p>
+        </div>
+      
+        <div class="follow">
+          <h4>Follow Us</h4>
+          <img src="../about us images/Facebook_Logo_2019.png.webp" class="socials">
+          <img src="../about us images/Instagram_logo_2016.svg.webp" class="socials">
+          <img src="../about us images/2-27646_twitter-logo-png-transparent-background-logo-twitter-png.png" class="socials">
+        </div>
+      
+        <div class="copyright">
+          <p>Copyright © [2023] , Kumo Bon-Sai All rights reserved.</p>
+        </div>
+      </footer>
+        </body>
+</html>

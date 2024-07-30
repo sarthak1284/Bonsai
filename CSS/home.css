@@ -1,0 +1,281 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+
+h1{
+    font-size: 50px;
+    line-height: 64px;
+    color: rgb(255, 255, 255);
+}
+
+h2{
+    font-size: 46px;
+    line-height: 54px;
+    color: rgb(255, 255, 255);
+}
+
+h4{
+    font-size: 20px;
+   color: #ffffff;
+}
+
+h6{
+    font-weight: 700;
+    font-size: 12px;
+}
+
+p{
+    font-size: 16px;
+    color: #ffffff;
+    margin: 15px 0 20 px 0;;
+}
+
+.section-p1{
+    padding: 40px 80px;
+}
+
+.section-m1{
+    margin: 40px 0;
+}
+
+.section-p2{
+    padding: 40px 80px;
+    background-color: #34302a;
+}
+
+body {
+    width: 100%;
+}
+
+.logo{
+    height: 79px;
+}
+
+/* Header */
+
+#header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px 55px;
+    background: #34302a;
+    box-shadow: 0 5px 15px rgba(0, 0.1, 0, 1);
+    z-index: 999;
+    position: sticky;
+    top: 0;
+    left: 0;
+}
+
+#navigationbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#navigationbar li{
+    list-style: none;
+    padding: 0 14px;
+    position: relative;
+}
+
+#navigationbar li a{
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 700;
+    color: #fff;
+    transition: 0.4s ease;
+}
+
+#navigationbar li a:hover,
+#navigationbar li a.onpage{
+    color: #4cc132;
+}
+
+#navigationbar li a.onpage::after,
+#navigationbar li a:hover::after{
+    content: "";
+    width: 50%;
+    height: 3px;
+    background: #4cc132;
+    position: absolute;
+    bottom: -3px;
+    left: 20px;
+}
+
+/* Home */
+#middle{
+    background-image: url("../home page images/bonsai-plants-benefits.webp");
+    height: 90vh;
+    width: 100%;
+    background-size: cover;
+    background-position:top 55% right 0;
+    padding: 0 55px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+#middle h1 {
+    padding-bottom: 15px;
+}
+#middle h4 {
+    padding-bottom: 15px;
+}
+
+#middle button{
+    background-image: url("../home page images/button.png");
+    background-color: transparent;
+    color: #ffffff;
+    border: 0;
+    padding: 14px 80px 14px 65px;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.lol{
+    color: #000000;
+}
+
+#product1{
+    text-align: center;
+}
+
+#product1 h2 {
+    color: #724100;
+}
+
+#product1 h4 {
+    color: #4cc132;
+    font-size: 30px;
+}
+
+#product1 .pro-container{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+    flex-wrap: wrap;
+}
+
+#product1 .pro{
+    width: 23%;
+    min-width: 250px;
+    padding: 10px 12px;
+    border: 1px solid #4cc132;
+    border-radius: 25px;
+    cursor: pointer;
+    box-shadow: 10px 10px 20px #81a581;
+    margin: 15px 0;
+    transition: 0.2s ease;
+    position: relative;
+}
+
+#product1 .pro:hover{
+    box-shadow: 10px 10px 20px #4cc132;
+}
+
+#product1 .pro img {
+    width: 100%;
+    border-radius: 20px;
+}
+
+#product1 .pro .des{
+    text-align: start;
+    padding: 10px 0;
+}
+#product1 .pro .des span{
+    color: #724100;
+    font-size: 12px;
+    font-weight: 500;
+}
+#product1 .pro .des h5 {
+    padding-top: 7px;
+    color: #1a1a1a;
+    font-size: 14px;
+}
+
+#product1 .pro .des h4{
+    padding-top:7px;
+    font-size: 15px;
+    font-weight: 700;
+    color: #4cc132;
+}
+#product1 .pro a button{
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    border-radius: 50px;
+    background-color: #e8f6ea;
+    font-weight: 500;
+    color: #4cc132;
+    border: 2px solid #4cc132;
+    position: absolute;
+    bottom: 20px;
+    right: 10px;
+    text-decoration: none;
+}
+
+.footlogo {
+    height: 95px;
+    width: 100px;
+}
+
+.socials {
+    height: 30px;
+    width: 30px;
+}
+
+footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+footer .logo1 {
+    margin-bottom: 30px;
+}
+
+footer h4 {
+    font-size: 30px;
+    padding-bottom: 20px;
+}
+
+footer p {
+    font-size: 15px;
+    margin: 0 0 8px 0;
+}
+
+footer .copyright {
+    padding-top: 50px;
+}
+
+#about .desc {
+    width: 48%;
+    min-width: 100px;
+    padding: 10px 12px;
+    border: 5px solid #4cc132;
+    border-radius: 25px;
+    margin: 15px 0;
+    position: relative;
+}
+
+#about .about-container {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+    flex-wrap: wrap;
+}
+
+#about .desc h1 {
+    color: #000000;
+    font-size: 30px;
+}
+
+#about .desc p {
+    color: #000000;
+}

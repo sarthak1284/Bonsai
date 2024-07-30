@@ -1,0 +1,97 @@
+
+/* EXTERNAL CSS*/
+
+*{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: linear-gradient(to right,#313520, #5a5a2b, #817637, #bcb34c,#8bad37,#455b24);
+}
+
+.wrapper{                                       /*the large test box where all lebels go*/
+    position: relative;
+    width: 400px;
+    height: 500px;
+    background: #FFFFFF33;
+    box-shadow: 0 0 50px  #0d0e08;
+    border-radius: 20px;
+    padding: 40px;
+}
+
+.form-wrapper{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 100%; 
+}
+
+h2{
+    font-size: 30px;
+    color: black;                      /*main heading "Feedback Form"*/
+    text-align: center;
+}
+
+.input-group{
+    position: relative;
+    margin: 30px 0;
+    border-bottom: 2px solid #ffff;    /*color for the lines below the labels*/
+}
+
+.input-group label{
+    position: absolute;
+    left: 5px;                           /*placement of the label from the left */
+    transform: translateY(-50%);         /*distance between label and line*/
+    font-size: 16px;
+    pointer-events: none;                /*not showing any pointer*/
+}
+
+.input-group input{
+    width: 320px;                       
+    height: 40px;
+    font-size: 16px;
+    color: #ffff;                       /*color of text enter by user*/
+    padding: 0 5px;                        /*position of text entered by  the user*/
+    background: transparent;
+    border: none;
+    outline: none;
+}
+
+.input-group input:focus~label,
+.input-group input:valid~label{
+    top: -5px;                              /*placement of the label from the top*/
+}
+
+.remember{
+    margin: -5px 0px 15px 5px;
+}
+
+.remember label{
+    color: #ffff;                       /*color of "Remember me"*/
+    font-size: 14px;
+}
+
+.remember label input{
+    accent-color: #344434;              /*color of checkbox*/
+}
+
+button{
+    position: relative;
+    width: 100%;
+    height: 40px;
+    background: #34302a;                /*color of the Submit button*/
+    font-size: 16px;
+    color: #ffff;
+    cursor: pointer;
+    border-radius: 30px;
+    border: none;
+    outline: none;
+}
+
